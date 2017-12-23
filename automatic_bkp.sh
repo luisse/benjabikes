@@ -1,6 +1,6 @@
 #!/bin/bash
 DB_FILE="OC_BKP-`date +%Y_%m_%d_%H_%M_%S`"
-DB_BK_FOLDER="/home/luis/PHP/benjabike_oc"
+DB_BK_FOLDER="/home/luis/PHP/benjabike_oc/"
 DB_BACKUP="$DB_BK_FOLDER$DB_FILE"
 FTP_SERVER="ftp.viveogroup.com"
 FTP_USER="faka@viveogroup.com"
