@@ -33,7 +33,7 @@ h6 {
 	font-size: 10.2px;
 }
 a {
-	color: #23a1d1;
+	color: #e6320b;
 }
 a:hover {
 	text-decoration: none;
@@ -73,8 +73,8 @@ div.required .control-label:before {
 .dropdown-menu li > a:hover {
 	text-decoration: none;
 	color: #ffffff;
-	background-color: #229ac8;
-	background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
+	background-color: #e6320b;
+	background-image: linear-gradient(to bottom, #e6320b, #cd3d1e);
 	background-repeat: repeat-x;
 }
 /* top */
@@ -192,10 +192,10 @@ div.required .control-label:before {
 }
 /* menu */
 #menu {
-	background-color: #229ac8;
-	background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
+	background-color: #e6320b;
+	background-image: linear-gradient(to bottom, #e6320b, #cd3d1e);
 	background-repeat: repeat-x;
-	border-color: #1f90bb #1f90bb #145e7a;
+	border-color: #e6320b #e6320b #cd3d1e;
 	min-height: 40px;
 }
 #menu .nav > li > a {
