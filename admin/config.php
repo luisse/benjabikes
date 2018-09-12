@@ -1,18 +1,18 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://localhost:9099/admin/');
-define('HTTP_CATALOG', 'http://localhost:9099/');
+define('HTTP_SERVER', 'http://localhost:8080/admin/');
+define('HTTP_CATALOG', 'http://localhost:8080/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://localhost:9099/admin/');
-define('HTTPS_CATALOG', 'http://localhost:9099/');
+define('HTTPS_SERVER', 'http://localhost:8080/admin/');
+define('HTTPS_CATALOG', 'http://localhost:8080/');
 
 // DIR
-define('DIR_APPLICATION', '/home/luis/PHP/benjabike_oc/admin/');
-define('DIR_SYSTEM', '/home/luis/PHP/benjabike_oc/system/');
-define('DIR_IMAGE', '/home/luis/PHP/benjabike_oc/image/');
-define('DIR_STORAGE', '/home/luis/PHP/storage/');
-define('DIR_CATALOG', '/home/luis/PHP/benjabike_oc/catalog/');
+define('DIR_APPLICATION', '/home/sebastian/source/php/benjabikes/admin/');
+define('DIR_SYSTEM', '/home/sebastian/source/php/benjabikes/system/');
+define('DIR_IMAGE', '/home/sebastian/source/php/benjabikes/image/');
+define('DIR_STORAGE', '/home/sebastian/source/php/storage/');
+define('DIR_CATALOG', '/home/sebastian/source/php/benjabikes/catalog/');
 define('DIR_LANGUAGE', DIR_APPLICATION . 'language/');
 define('DIR_TEMPLATE', DIR_APPLICATION . 'view/template/');
 define('DIR_CONFIG', DIR_SYSTEM . 'config/');
@@ -27,7 +27,7 @@ define('DIR_UPLOAD', DIR_STORAGE . 'upload/');
 define('DB_DRIVER', 'mysqli');
 define('DB_HOSTNAME', 'localhost');
 define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '4Lso07');
+define('DB_PASSWORD', '123456');
 define('DB_DATABASE', 'benjabike_oc');
 define('DB_PORT', '3306');
 define('DB_PREFIX', '');
