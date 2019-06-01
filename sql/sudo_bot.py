@@ -99,8 +99,8 @@ class BotServerMaintenence(object):
 
                 for line in stdout_list:
                     str_ip = line.strip().split(' ')
-		    if len(str_ip) > 2 :
-		    	buttons.append(InlineKeyboardButton("{}".format(str_ip[0]+"-"+str_ip[2]), callback_data="unauthorized {}".format(str_ip[2])))
+		    	if len(str_ip) > 2 :
+		    		buttons.append(InlineKeyboardButton("{}".format(str_ip[0]+"-"+str_ip[2]), callback_data="unauthorized {}".format(str_ip[2])))
                 if len(buttons) > 0:
                        reply_markup = InlineKeyboardMarkup(self.build_menu(buttons, n_cols=1))
                        bot.sendMessage(chat_id=update.message.chat_id, text = "<b>IP for block with IPTABLES</>", reply_markup=reply_markup, parse_mode=ParseMode.HTML)
@@ -273,7 +273,7 @@ class BotServerMaintenence(object):
 		#COMMAND DOR BOT
 		self.dispatcher.add_handler(CommandHandler('start', self.start))
 		self.dispatcher.add_handler(CommandHandler('databases', self.databases_list))
-                self.dispatcher.add_handler(CommandHandler('iphacks', self.ip_list))
+        self.dispatcher.add_handler(CommandHandler('iphacks', self.ip_list))
 		self.dispatcher.add_handler(CommandHandler('execute',self.execute, pass_args=True))
 		self.dispatcher.add_handler(CallbackQueryHandler(self.button))
 		self.dispatcher.add_error_handler(self.error)
